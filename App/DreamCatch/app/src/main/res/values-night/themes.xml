@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.DreamCatch" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+        <item name="colorPrimary">#B3B3B3</item>
+        <item name="colorSecondary">@color/black</item>
+        <item name="android:fontFamily">@font/quicksand_regular</item>
+        <item name="android:layout_width">match_parent</item>
+
+    </style>
+</resources>

@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ui.dashboard.DashboardFragment"
+    android:background="@drawable/baseline_analytics_24"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_height="320dp"
+        android:layout_width="match_parent"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        app:cardElevation="4dp"
+        app:cardUseCompatPadding="true"
+        android:id="@+id/cardView"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        app:cardBackgroundColor="#327B91BF"
+        app:cardCornerRadius="20dp" >
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:text="Smart Sleeping Mask"
+            android:textStyle="bold"
+            app:cardBackgroundColor="#CCA9AFBD"
+            android:textColor="#BCBCBC"/>
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_marginLeft="115dp"
+            android:layout_marginTop="50dp"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/c3" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="160dp"
+            android:text="SLEEP"
+            android:textStyle="bold"
+            android:textColor="#80050F1E"/>
+
+        <Button
+            android:id="@+id/buttonpair"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="135dp"
+            android:layout_marginTop="220dp"
+            android:text="Pair Device"
+            android:textSize="10dp"
+            android:textStyle="bold"
+            android:textColor="#80050F1E"/>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+<!--    <androidx.cardview.widget.CardView-->
+<!--        android:id="@+id/cardView3"-->
+<!--        android:layout_width="160dp"-->
+<!--        android:layout_height="160dp"-->
+<!--        android:layout_marginLeft="110dp"-->
+<!--        android:layout_marginTop="100dp"-->
+<!--        app:cardBackgroundColor="#66D5E2FF"-->
+<!--        app:cardCornerRadius="100dp" >-->
+
+<!--        <com.example.dreamcatch.DonutSelectorView-->
+<!--            android:id="@+id/donutSelectorView"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent" />-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/imageView4"-->
+<!--            android:layout_marginLeft="5dp"-->
+<!--            android:layout_marginTop="5dp"-->
+<!--            android:layout_width="150dp"-->
+<!--            android:layout_height="150dp"-->
+<!--            android:src="@drawable/c2" />-->
+<!--    </androidx.cardview.widget.CardView>-->
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView2"
+        android:layout_width="match_parent"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_height="280dp"
+        android:layout_marginTop="380dp"
+        app:cardBackgroundColor="#327B91BF"
+        app:cardCornerRadius="20dp" >
+
+
+        <Button
+            android:id="@+id/stopbutton"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="200dp"
+            android:text="STOP ALARM"
+            android:textStyle="bold"
+            android:textColor="#80050F1E"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:text="Smart Alarm"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:textColor="#BCBCBC"/>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="70dp"
+            android:text="Alarm Time"
+            android:textStyle="bold"
+            android:textSize="12dp"
+            android:textColor="#BCBCBC"/>
+
+
+        <Switch
+            android:id="@+id/switch1"
+            android:layout_marginLeft="240dp"
+            android:layout_marginTop="120dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:thumbTint="#FFFFFF"
+            android:trackTint="#BCBCBC"
+            android:text="Turn on"
+            android:textStyle="bold"
+            android:textSize="12dp"
+            android:textColor="#BCBCBC"/>
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:tint="#CC757E95"
+            android:layout_marginLeft="250dp"
+            android:layout_marginTop="70dp"
+            android:src="@drawable/baseline_access_alarm_24" />
+
+        <EditText
+            android:id="@+id/editTextText4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="100dp"
+            android:ems="10"
+            android:inputType="text"
+            android:hint="Earliest Time: e.g. 10.20"
+            android:textColorHint="#BCBCBC"
+            android:textColor="#BCBCBC"
+            android:textSize="12dp"
+            android:textStyle="bold"
+            />
+
+        <EditText
+            android:id="@+id/editTextText5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="140dp"
+            android:ems="10"
+            android:inputType="text"
+            android:hint="Latest Time: e.g. 11.00"
+            android:textColorHint="#BCBCBC"
+            android:textSize="12dp"
+            android:textColor="#BCBCBC"
+            android:textStyle="bold"/>
+    </androidx.cardview.widget.CardView>
+
+<!--    <androidx.cardview.widget.CardView-->
+<!--        android:id="@+id/cardView3"-->
+<!--        android:layout_width="360dp"-->
+<!--        android:layout_height="200dp"-->
+<!--        android:layout_marginLeft="20dp"-->
+<!--        android:layout_marginTop="380dp"-->
+<!--        app:cardBackgroundColor="#327B91BF"-->
+<!--        app:cardCornerRadius="20dp" >-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/textView3"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginLeft="20dp"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:text="Play Soothing Music"-->
+<!--            android:textColor="#BCBCBC"/>-->
+<!--    </androidx.cardview.widget.CardView>-->
+
+</FrameLayout>

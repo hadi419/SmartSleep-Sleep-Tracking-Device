@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/b3"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SIGNUP"
+        android:textColor="@color/black"
+        android:layout_marginLeft="270dp"
+        android:layout_marginTop="400dp" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Username"
+        android:textColorHint="#B3B3B3"
+        android:textColor="#B3B3B3"
+        android:inputType="textEmailAddress"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="260dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:ems="10"
+        android:textColorHint="#B3B3B3"
+        android:textColor="#B3B3B3"
+        android:inputType="textPassword"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="320dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Already have an account? Login"
+        android:textColor="#B3B3B3"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="480dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome!"
+        android:textColor="#B3B3B3"
+        android:textSize="30dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="200dp" />
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_height="420dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="170dp"
+        app:cardBackgroundColor="#267B91BF"
+        app:cardCornerRadius="20dp"/>
+
+
+</RelativeLayout>
